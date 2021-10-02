@@ -1,0 +1,92 @@
+body{
+    background-color: rgba(137, 171, 245, 0.37);
+    
+    font-family:'Courier New', Courier, monospace;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 30vw;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.55);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+.header h1{
+    color: rgb(80, 189, 240);
+    font-size: 2rem;
+}
+.form-style{
+    height: 35vh;
+    width: 30vw;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.55);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3); 
+    padding: 2%;
+}
+.form-style form{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.form-style .image-inside input{
+    padding: 2%;
+    width: 100%;
+    text-decoration: none;
+    outline: none;
+}
+.upload-button{
+    background-color: #4e9ee9;
+    height: 8vh;
+    width: 100%;
+    border: 1px solid white;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 4% 2% 2% 2%;
+}
+.form-style .image-inside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-style .image-inside label{
+    font-size: 1.8rem;
+    color: rgb(54, 183, 243);
+}
+.form-style .image-inside input{
+    font-size: 1.4rem;
+}
+.form-style .image-inside .form-control{
+    width: 70%;
+}
+.footer{
+    height: fit-content;
+    width: fit-content;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.55);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    padding: 1%;
+    color: black;
+    font-size: 0.7rem !important;
+}
