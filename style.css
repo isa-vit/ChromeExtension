@@ -2,9 +2,11 @@ body{
     background-color: rgba(137, 171, 245, 0.37);
     
     font-family:'Courier New', Courier, monospace;
+    width: 500px;
+    height: 500px;
 }
 .main{
-    height: 100vh;
+    height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -17,26 +19,28 @@ body{
     align-items: center;
     justify-content: center;
     height: 10vh;
-    width: 30vw;
+    width: 80vw;
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
     background-color: rgba(255, 255, 255, 0.55);
     border-radius: 12px;
     border: 1px solid rgba(209, 213, 219, 0.3);
+    margin-top: -40px;
 }
 .header h1{
     color: rgb(80, 189, 240);
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 .form-style{
     height: 35vh;
-    width: 30vw;
+    width: 80vw;
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
     background-color: rgba(255, 255, 255, 0.55);
     border-radius: 12px;
     border: 1px solid rgba(209, 213, 219, 0.3); 
-    padding: 2%;
+    padding: 1%;
+    margin-top: -40px;
 }
 .form-style form{
     height: 100%;
@@ -89,4 +93,5 @@ body{
     padding: 1%;
     color: black;
     font-size: 0.7rem !important;
+    margin-top: -40px;
 }
