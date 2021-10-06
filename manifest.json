@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "ISA Extension",
+    "version": "0.1",
+    "description" : "ISA project to remove background from images",
+    "content_scripts": [
+        {
+          "matches": [
+            "<all_urls>"
+          ],
+          "js": ["main.js"]
+        }
+      ],   
+      "browser_action": {
+        "default_icon": "Icons/icon48.png",
+        "default_popup" : "index.html"
+      },
+      "icons": { 
+        "16": "Icons/icon16.png",
+        "48": "Icons/icon48.png",
+       "128": "Icons/icon128.png" }
+}
