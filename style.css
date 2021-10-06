@@ -80,7 +80,16 @@ body{
     margin: 4% 2% 2% 2%;
 
 }
-
+.upload{
+    padding-bottom:20px;
+    padding-top:170px; 
+  }
+  .trash{
+    margin-right: -30px;
+  }
+  .download{
+    padding-top:10px;
+  }
 .footer{
     height: fit-content;
     width: fit-content;
