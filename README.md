@@ -1,5 +1,14 @@
-## Chrome Extension 
+# Chrome Extension 
 
 A chrome extension that will remove background from images
 
-![image](https://user-images.githubusercontent.com/81004813/137575473-7b98683c-777b-470f-99e2-7b1c30fb46b5.png)
+
+### Contributing Guidelines
+
+Link : <a href="https://github.com/isa-vit/ChromeExtension/blob/main/CONTRIBUTING.md">How to contribute?</a>
+
+<br>
+
+### Extension UI
+
+Link : <a href="https://github.com/isa-vit/ChromeExtension/blob/main/Extension%20UI.md">UI Reference</a>
