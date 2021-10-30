@@ -41,6 +41,8 @@ body{
     padding: 1%;
     margin-bottom: -30px;
     justify-content: center;
+    resize: both;
+    overflow: scroll;
 }
 .form-style form{
     height: 100%;

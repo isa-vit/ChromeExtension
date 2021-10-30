@@ -2,7 +2,6 @@
 
 A chrome extension that will remove background from images
 
-<br>
 
 ### Contributing Guidelines
 
